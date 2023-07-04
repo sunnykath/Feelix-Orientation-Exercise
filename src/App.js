@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "@myob/myob-widgets";
 import InvoiceDetailView from "./InvoiceDetail/InvoiceDetailView";
 import InvoicesListView from "./InvoiceList/InvoicesListView";
@@ -6,7 +6,7 @@ import Home from './Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <ThemeProvider theme="classic">
           <Routes>
@@ -16,7 +16,7 @@ function App() {
           </Routes>
         </ThemeProvider>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

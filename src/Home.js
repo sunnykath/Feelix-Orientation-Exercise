@@ -58,7 +58,7 @@ export default function Home() {
   );
 
   return (
-    <div style={{ background: "#ebeef1", padding: "2.4rem" }}>
+    <div style={{ background: "#ebeef1", padding: "2.4rem", height:"100vh"}}>
       <Card
         header={<Card.Header child={<CardHeader />} />}
         body={<Card.Body child={<CardBody />} />}
