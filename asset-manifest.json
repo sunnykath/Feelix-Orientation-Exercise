@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/feelix-orientation-exercise/static/css/main.a76d71f1.css",
+    "main.js": "/feelix-orientation-exercise/static/js/main.c3657f41.js",
+    "index.html": "/feelix-orientation-exercise/index.html",
+    "main.a76d71f1.css.map": "/feelix-orientation-exercise/static/css/main.a76d71f1.css.map",
+    "main.c3657f41.js.map": "/feelix-orientation-exercise/static/js/main.c3657f41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a76d71f1.css",
+    "static/js/main.c3657f41.js"
+  ]
+}
