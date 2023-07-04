@@ -1,9 +1,14 @@
-import WelcomeMessage from './WelcomeMessage';
+import { ThemeProvider } from "@myob/myob-widgets";
+import InvoiceDetailView from "./InvoiceDetail/InvoiceDetailView";
+import InvoicesListView from './InvoiceList/InvoicesListView';
 
 function App() {
   return (
     <div className="App">
-      <WelcomeMessage />
+      <ThemeProvider theme="classic">
+        {/* <InvoicesListView/> */}
+        <InvoiceDetailView />
+      </ThemeProvider>
     </div>
   );
 }
