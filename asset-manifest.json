@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Feelix-Orientation-Exercise/static/css/main.1fa995ed.css",
-    "main.js": "/Feelix-Orientation-Exercise/static/js/main.5c4f489e.js",
+    "main.js": "/Feelix-Orientation-Exercise/static/js/main.27279db3.js",
     "index.html": "/Feelix-Orientation-Exercise/index.html",
     "main.1fa995ed.css.map": "/Feelix-Orientation-Exercise/static/css/main.1fa995ed.css.map",
-    "main.5c4f489e.js.map": "/Feelix-Orientation-Exercise/static/js/main.5c4f489e.js.map"
+    "main.27279db3.js.map": "/Feelix-Orientation-Exercise/static/js/main.27279db3.js.map"
   },
   "entrypoints": [
     "static/css/main.1fa995ed.css",
-    "static/js/main.5c4f489e.js"
+    "static/js/main.27279db3.js"
   ]
 }
