@@ -42,7 +42,7 @@ export default function Home() {
         <Heading>Pages</Heading>
         {callToAction}
       </Box>
-      <Box as="p" style={{marginTop:"2rem"}}>
+      <Box as="p" style={{ marginTop: "2rem" }}>
         <Heading>Main Pointers</Heading>
         <ul>
           <li>Box Props</li>
@@ -58,8 +58,22 @@ export default function Home() {
   );
 
   return (
-    <div style={{ background: "#ebeef1", padding: "2.4rem", height:"100vh"}}>
+    <div
+      style={{
+        background: "#ebeef1",
+        padding: "2.4rem",
+        height: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection:"column"
+      }}
+    >
+        <Heading>
+            Welcome!
+        </Heading>
       <Card
+        width="700px"
         header={<Card.Header child={<CardHeader />} />}
         body={<Card.Body child={<CardBody />} />}
       />
