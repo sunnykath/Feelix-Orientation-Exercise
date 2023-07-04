@@ -1,0 +1,5 @@
+@import "~@myob/design-tokens";
+
+.overdue{
+    color: var(--myob-palette-red-600);
+}

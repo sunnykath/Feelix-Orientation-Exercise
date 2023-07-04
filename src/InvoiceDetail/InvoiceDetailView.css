@@ -1,0 +1,12 @@
+.custom-table .line-item__icon-right {
+    display: none;
+}
+
+[data-label='moreOption'] {
+    color: transparent;
+    border: none;
+}
+
+[aria-label='more options'] {
+    background: none;
+}
